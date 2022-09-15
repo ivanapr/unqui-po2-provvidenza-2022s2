@@ -11,6 +11,7 @@ class AgendaTest {
 	
 	@BeforeEach
 	void setUp() throws Exception {
+		a = new Agenda();
 		a.agregarElemento("Jose");
 		a.agregarElemento("Asfdsg");
 		a.agregarElemento("Jules");
